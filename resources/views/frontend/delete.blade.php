@@ -44,6 +44,10 @@
             setTimeout(function (){
                 completed()
             }, 12000);
+
+            setTimeout(function (){
+                redirect();
+            }, 15000);
         });
 
         function setApache(){
@@ -80,6 +84,10 @@
             $('.deletion-text-en').text("Test");
             $('.deletion-text-de').text("Test");
             $('.progress-bar').attr("aria-valuenow", "100").css('width', "100%");
+        }
+
+        function redirect(){
+            location.href = 'completed';
         }
     </script>
 @endsection
