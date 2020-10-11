@@ -20,10 +20,21 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     </head>
     <body>
-        @include('layouts.nav')
+        <div class="float-left position-absolute ml-5">
+            <img width="20%" src="{{ asset('storage/logo.png') }}">
+        </div>
+
+        <div>
+            <div class="mt-5">&nbsp;</div>
+            <div class="mt-3">&nbsp;</div>
+
+            <h1 class="text-center">ICANN - Administration Console</h1>
+        </div>
+
+        <div class="clearfix mt-5">&nbsp;</div>
 
         <div class="container">
-            <main class="py-4">
+            <main class="py-4 text-center">
                 @yield('content')
             </main>
         </div>

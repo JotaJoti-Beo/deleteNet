@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [FrontendController::class, 'index']);
-Route::get('/delete', [FrontendController::class, 'delete']);
+Route::get('/', [FrontendController::class, 'index'])->name('home');
+Route::get('/delete', [FrontendController::class, 'delete'])->name('delete');
