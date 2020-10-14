@@ -51,38 +51,38 @@
         });
 
         function setApache(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Kill Apache");
+            $('.deletion-text-de').text("Beende Apache");
             $('.progress-bar').attr("aria-valuenow", "32").css('width', "32%");
         }
 
         function setNginx(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Kill Nginx");
+            $('.deletion-text-de').text("Beende Nginx");
             $('.progress-bar').attr("aria-valuenow", "46").css('width', "46%");
         }
 
         function killBIND(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Shut down ISC BIND");
+            $('.deletion-text-de').text("Fahre ISC BIND herunter");
             $('.progress-bar').attr("aria-valuenow", "67").css('width', "67%");
         }
 
         function killSelf(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Kill local server");
+            $('.deletion-text-de').text("Deaktiviere lokalen Server");
             $('.progress-bar').attr("aria-valuenow", "89").css('width', "89%");
         }
 
         function cleanup(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Global cleanup");
+            $('.deletion-text-de').text("Globale bereinigung");
             $('.progress-bar').attr("aria-valuenow", "99").css('width', "99%");
         }
 
         function completed(){
-            $('.deletion-text-en').text("Test");
-            $('.deletion-text-de').text("Test");
+            $('.deletion-text-en').text("Completed!");
+            $('.deletion-text-de').text("Abgeschlossen!");
             $('.progress-bar').attr("aria-valuenow", "100").css('width', "100%");
         }
 
