@@ -18,4 +18,8 @@ class FrontendController extends Controller
     public function delete(){
         return view('frontend.delete');
     }
+
+    public function completed(){
+        return view('frontend.completed');
+    }
 }
