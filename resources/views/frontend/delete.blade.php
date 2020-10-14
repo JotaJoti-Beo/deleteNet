@@ -47,7 +47,7 @@
 
             setTimeout(function (){
                 redirect();
-            }, 15000);
+            }, 14000);
         });
 
         function setApache(){
@@ -87,7 +87,7 @@
         }
 
         function redirect(){
-            location.href = 'completed';
+            window.location = '/completed';
         }
     </script>
 @endsection

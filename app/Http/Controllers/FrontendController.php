@@ -12,6 +12,8 @@ class FrontendController extends Controller
      * @return Application|Factory|View
      */
     public function index(){
+        $deleted =
+
         return view('frontend.frontend');
     }
 
